@@ -1,0 +1,18 @@
+@font-face {
+  font-family: GeorgiaScript;
+  src: url('00590d49fedbbd7dfab1d3c2198f9f4c.otf');
+}
+.index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.index h1 {
+  color: #bd9100;
+  font-size: 3.2em;
+  font-family: GeorgiaScript;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZXMvaW5kZXguY3NzIiwic291cmNlUm9vdCI6IiJ9*/
