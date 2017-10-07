@@ -67,7 +67,7 @@ watcher.on('create', function (file, stats) {
             console.log('Default Template created in Components/' + file + '.ejs');
         }
         if (file.substring(4, 14) === 'components' && extfs.isEmptySync(file)) {
-            fs.writeFileSync(file, "<div class=\"" + file + "\">\n<!--Start writing your HTML here-->\n</div>")
+            fs.writeFileSync(file, "<div class=\"" + fileShort + "\">\n<!--Start writing your HTML here-->\n</div>")
             console.log('Default Template created in ' + file + '.ejs');
         }
         var modules = getAllComponents(),
