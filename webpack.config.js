@@ -80,7 +80,7 @@ module.exports = {
     },
     plugins: allHtmlPlugins.concat([
         extractLess,
-        new CleanWebpackPlugin(),
+        new CleanWebpackPlugin(['dist/*.*']),
         new webpack.HotModuleReplacementPlugin(),
         new UglifyJSPlugin({
             minimize: true
